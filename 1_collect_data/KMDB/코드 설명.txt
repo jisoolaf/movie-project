@@ -1,0 +1,12 @@
+#KMDB크롤링.py (정호진)
+
+kmdb api에서 movieExtractor함수를 이용하여 json파일 추출하고, 
+kmdbValueSearcher함수를 통해 movieExtractor함수로 추출되지 않는 영화들에 대해
+직접 변수명을 추출함.
+
+영화명, 수상내역, 감독명, 영문명, 개봉일, 키워드, 줄거리, 수상내역 추출하여 데이터프레임화.
+
+특이사항: 키 중에 rating하고 director는 사전에서 반환하는 value가 다른 key
+	(바로 값이 출력됨)하고 달라서 (리스트 안에 사전이 들어있음) 따로 분기 처리함.  
+	
+	json파일중에 문제가 있는 영화들이 몇개 존재하여 kmdbValueSearcher를 통해 해결.
