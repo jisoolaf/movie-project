@@ -1,0 +1,227 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on 토 6월 29 20:34:21 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   moviecontrol.ctl
+Data File:      movie.csv
+  Bad File:     movie.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 300000000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MOVIE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+MOVIE_ID                            FIRST  2000   ,       CHARACTER            
+    SQL string for column : "movieseq.nextval"
+MOVIE_NM                             NEXT  2000   ,       CHARACTER            
+DIRECTOR_NM                          NEXT  2000   ,       CHARACTER            
+OPEN_DT                              NEXT  2000   ,       CHARACTER            
+SHOW_TM                              NEXT  2000   ,       CHARACTER            
+NATION_NM                            NEXT  2000   ,       CHARACTER            
+GENRE_NM                             NEXT  2000   ,       CHARACTER            
+WATCH_GRADE_NM                       NEXT  2000   ,       CHARACTER            
+COMPANY_NM                           NEXT  2000   ,       CHARACTER            
+SP_LANG                              NEXT  2000   ,       CHARACTER            
+BUDGET                               NEXT  2000   ,       CHARACTER            
+ACTOR                                NEXT *****   ,       CHARACTER            
+    Maximum field length is 100000
+STAFF                                NEXT *****   ,       CHARACTER            
+    Maximum field length is 300000
+SERIES                               NEXT  2000   ,       CHARACTER            
+KEYWORDS                             NEXT  2000   ,       CHARACTER            
+AWARDS                               NEXT 10000   ,       CHARACTER            
+NAVER_CMT                            NEXT *****   ,       CHARACTER            
+    Maximum field length is 3000000
+NAVER_CMT_NN                         NEXT  2000   ,       CHARACTER            
+NAVER_PRE_EVAL                       NEXT  2000   ,       CHARACTER            
+NAVER_EX_PT                          NEXT  2000   ,       CHARACTER            
+ORI_BOOK                             NEXT  2000   ,       CHARACTER            
+PLOT                                 NEXT 10000   ,       CHARACTER            
+AUDI_ACC                             NEXT  2000   ,       CHARACTER            
+
+Record 18: Rejected - Error on table MOVIE, column MOVIE_ID.
+Field in data file exceeds maximum length
+Record 20: Rejected - Error on table MOVIE, column MOVIE_ID.
+Field in data file exceeds maximum length
+Record 1: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 2: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01861: literal does not match format string
+
+Record 3: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 4: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 5: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 6: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 7: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 8: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 9: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 10: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 11: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 12: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 13: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 14: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 15: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 16: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 17: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 19: Rejected - Error on table MOVIE, column AUDI_ACC.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."AUDI_ACC")
+
+Record 21: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 22: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 23: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 24: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 25: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 26: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-12899: value too large for column "SYS"."MOVIE"."MOVIE_NM" (actual: 1474, maximum: 200)
+
+Record 27: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 28: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 29: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 30: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 31: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 32: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 33: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 34: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 35: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 36: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01861: literal does not match format string
+
+Record 37: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 38: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 39: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 40: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 41: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01861: literal does not match format string
+
+Record 42: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 43: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 44: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 45: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 46: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01861: literal does not match format string
+
+Record 47: Rejected - Error on table MOVIE, column OPEN_DT.
+ORA-01841: (full) year must be between -4713 and +9999, and not be 0
+
+Record 48: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 49: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 50: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+Record 51: Rejected - Error on table MOVIE, column MOVIE_NM.
+ORA-01400: cannot insert NULL into ("SYS"."MOVIE"."MOVIE_NM")
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table MOVIE:
+  0 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:               221187328 bytes(64 rows)
+Read   buffer bytes:300000000
+
+Total logical records skipped:          0
+Total logical records read:            66
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on 토 6월  29 20:34:21 2019
+Run ended on 토 6월  29 20:34:22 2019
+
+Elapsed time was:     00:00:00.77
+CPU time was:         00:00:00.58

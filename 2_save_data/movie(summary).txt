@@ -1,0 +1,27 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4262 entries, 0 to 4261
+Data columns (total 22 columns):
+movie_Nm          4262 non-null object
+director_Nm       4238 non-null object
+open_Dt           4262 non-null object
+show_Tm           4260 non-null float64
+nation_Nm         4262 non-null object
+genre_Nm          4261 non-null object
+watch_Grade_Nm    4262 non-null object
+company_Nm        4262 non-null object
+sp_Lang           2219 non-null object
+budget            794 non-null float64
+actor             2113 non-null object
+staff             2177 non-null object
+series            2253 non-null float64
+keywords          3039 non-null object
+awards            900 non-null object
+naver_Cmt         4221 non-null object
+naver_Cmt_Nn      4221 non-null float64
+naver_Pre_Eval    4221 non-null float64
+naver_Ex_Pt       4221 non-null float64
+ori_Book          4221 non-null float64
+plot              4043 non-null object
+audi_Acc          4262 non-null int64
+dtypes: float64(7), int64(1), object(14)
+memory usage: 732.6+ KB
