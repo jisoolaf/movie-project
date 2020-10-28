@@ -1,0 +1,24 @@
+# getTMDBData.py	(김지수) 
+
+tmdb에서 
+영화id, 영화제목,영화출시일?(release date),
+시리즈여부,spoken language,스탭과 배우(crew,cast),키워드
+를 불러와서 TMDBData(리스트)에 추가하고 데이터프레임(TMDBDf)를 만드는 코드
+
+*특이사항:개봉일자가 신뢰도가 떨어진 영화가 많아 현재까지 한국에서 개봉한 모든 영화를 
+ 크롤링 하려고 했음.
+
+#TMDB_Join.py (김지수)
+
+영진위 csv파일과 tmdb csv파일을 영화명(movieNm)과 영어감독명(directorNmEn)으로
+innerjoin,outerjoin하여 join 된 영화 확인 및 join 되지 않는 영화를 확인하는 코드.
+
+*특이사항: 영화명 - 특수문자,공백제거,알파벳의경우 모두 소문자처리
+	 영화감독명 - 여러명일 경우 ,로 split하여 첫번째 감독을 가지고오고
+		   - 영화명과 동일한 전처리 시행.
+ 
+		
+
+
+
+
