@@ -1,0 +1,13 @@
+#polarityAnalysis.R (김지수)
+
+cmt_score와 audi_acc간의 상관관계분석 (pearson,kendall,spearman 계수 확인 및 시각화)
+CMT_SCORE - NAVER_PRE_EVAL간의 상관관계분석
+
+특이사항: 코드중에 인코딩이 제대로 안되어 깨져보이는것이 있음(corrplot 옵션중 title)
+
+#############################################################
+#여러가지 비율변수간의 상관관계분석.R (이형욱)
+
+SHOW_TM, BUDGET, NAVER_CMT_NN, NAVER_PRE_EVAL, NAVER_EX_PT, AUDI_ACC
+간의 상관관계 분석 및 시각화
+

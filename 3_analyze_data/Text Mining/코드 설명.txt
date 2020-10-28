@@ -1,0 +1,7 @@
+plotWordcloud.py (김지수) : 줄거리에서 빈도수 상위 100위까지를 추출하여 워드클라우드 그래프로 빈도수에 따라 크기가 큰 글자 출력
+
+불용어리스트를 활용한 워드클라우드 코딩
+
+polarityDict.py (김지수) : polarity.csv 감성사전을 이용하여 댓글의 감정 점수를 계산하고 이를 새로운 컬럼에 추가하는 코드임.
+
+test_wordcloud.py(이형욱): 댓글리스트를 konlpy를 사용하여 wordcloud 생성
