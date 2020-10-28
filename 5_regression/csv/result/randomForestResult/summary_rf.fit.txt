@@ -1,0 +1,38 @@
+                Length Class 
+call               8   -none-
+type               1   -none-
+predicted       4188   -none-
+mse              501   -none-
+rsq              501   -none-
+oob.times       4188   -none-
+importance        18   -none-
+importanceSD       9   -none-
+localImportance    0   -none-
+proximity          0   -none-
+ntree              1   -none-
+mtry               1   -none-
+forest            11   -none-
+coefs              0   -none-
+y               4188   -none-
+test               0   -none-
+inbag              0   -none-
+terms              3   terms 
+                Mode     
+call            call     
+type            character
+predicted       numeric  
+mse             numeric  
+rsq             numeric  
+oob.times       numeric  
+importance      numeric  
+importanceSD    numeric  
+localImportance NULL     
+proximity       NULL     
+ntree           numeric  
+mtry            numeric  
+forest          list     
+coefs           NULL     
+y               numeric  
+test            NULL     
+inbag           NULL     
+terms           call     

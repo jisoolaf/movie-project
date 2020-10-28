@@ -1,0 +1,9 @@
+
+Call:
+ randomForest(formula = AUDI_ACC ~ OPEN_WEEK + SHOW_TM + NATION_NM +      COMPANY_NM + PRI_GENRE_NM + WATCH_GRADE_NM + SERIES + NAVER_CMT_NN +      NAVER_EX_PT, data = fitdata, mtry = floor(sqrt(9)), ntree = 501,      importance = T, replace = T, nodesize = 9) 
+               Type of random forest: regression
+                     Number of trees: 501
+No. of variables tried at each split: 3
+
+          Mean of squared residuals: 1.584017
+                    % Var explained: 72.11
